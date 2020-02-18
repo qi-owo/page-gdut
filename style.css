@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 1024px;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    background-image: url(images/top.jpg);
+    background-repeat: repeat-x;
+}
+
+.head{
+    width:980px;
+    height: 101px;   
+    position: relative;
+    padding-right: 72px;
+    padding-left: 72px;
+}
+.logo{
+    position: absolute;
+    padding-top: 17px;
+    padding-left: 65px;
+}
+.topr{
+    width: 460px;
+    height: 58px;
+    color: #333333;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: -50px;
+}
+.topr0{
+    padding-top: 38px;
+}
+.topr1{
+    padding: 0px 10px;
+}
+.topr2,.topr3,.topr4{
+    padding: 0px 10px;
+    border-left:1px solid black;
+}
+.topr a:link,a:visited,a:hover,a:active{
+    color: #333333;
+    text-decoration: none;
+}
+
+/**----------------导航---------------**/
+nav{
+    width: 100%;
+    min-width: 1024px;
+    height: 45px;
+    margin: 0 auto;
+    background-color: #9a0000;
+}
+.nav0{
+    width: 1024px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 2px;
+    padding-left: 1px;
+    text-align: center;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    width: auto;
+    padding: 6px 15px 0 16px;
+    position: relative;
+    z-index: 999;
+}
+nav ul li a{
+    FONT-SIZE: 16px;
+    FONT-FAMILY: "微软雅黑", "黑体","宋体", Verdana, Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    text-decoration: none;
+}
+nav ul li a:link,nav ul li a:visited,nav ul li a:active{
+    color: white;
+}
+nav ul li a:hover{
+    color:#F2861D;
+}
+
+.ztl{
+    width: 100%;
+    min-width: 1024px;
+    height: 32px;
+    margin:0 auto;
+    background-color: #9a0000;
+}
+/**-------------主页图------------------**/
+.banner{
+    width: 100%;
+    min-width: 1024px; /*或许实现了变小不再动的问题*/
+    max-width: 1920px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner img{      /*！！！！！解决了图片溢出*/
+    display: block;
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/**-------------盒子------------------**/
+.box{
+    font-size: 14px;
+    color: #333333;
+    margin-top: 20px;
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.box li{
+    list-style: none;
+}
+.box_bt{
+    display: block;
+    line-height: 24px;
+}
+.boxa,.boxb,.boxd,.boxe,.boxf{
+    width: 290px;
+    height: 240px;
+    display: inline-block;
+    padding: 0px 30px 0px 0px;
+}
+.boxc{
+    display: inline-block;
+    width: 290px;
+    height: 240px;
+}
+.boxleft{
+    display: block;
+    font-size: 18px;
+    float: left;
+    height: 30px;
+}
+.boxright{
+    display: block;
+    font-size: 13px;
+    color: #666666;
+    float: right;
+}
+.boxleft0{
+    display: block;
+    font-size: 18px;
+    float: left;
+    color: #D52B2B;
+    height: 30px;
+}
+.boxright0{
+    display: block;
+    font-size: 13px;
+    color: #666666;
+    float: right;
+}
+.box_zw{
+    clear: both;
+    display: block;
+    line-height: 24px;
+    padding-top: 12px;
+    padding-left: 6px;
+    width: 300px;
+    border-top: #e4e4e4 solid 1px;
+}
+.box_zw0{
+    clear: both;
+    display: block;
+    padding-left: 6px;
+    width: 300px;
+    border-top: #e4e4e4 solid 1px;   
+}
+.tu{
+    position: relative;
+}
+.box a:link,.box a:visited,.box a:hover,.box a:active{
+    color: #333333;
+    text-decoration: none;
+}
+.box a{
+    margin-bottom: 20px;
+}
+
+/**-------------尾部------------------**/
+footer{
+    font-size: 12px;
+    color:white;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    height: 88px;
+    background-color: #9a0000;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.www{
+    display: inline;
+}
+
+#hhh{
+    text-align: center;
+    position: relative;
+    top: 35px;
+}
+#emm{
+    position: absolute;
+    right: 180px;
+    bottom: 3px;
+}
